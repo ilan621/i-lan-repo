@@ -63,6 +63,23 @@ Architecture: iphoneos-arm
 Name: CopyLog 简体中文包
 Author: Ball <ball@hackcn.net>
 
+Package: com.cydiabc.fzyewechat
+Version: 1.5.9-6
+Description: 微信助手兼容最新版7.0.20微信，支持语音转发，朋友圈文本转发，视频转发，收藏语音转发（需缓存语音），具体功能预览截图
+Filename: debs/com.cydiabc.fzyewechat_1.5.9-6_iphoneos-arm.deb
+Size: 2046916
+MD5sum: 890d87cfe631eb90f17c3d0b41b0eed5
+A12: 1
+Section: 微信
+Maintainer: Jan
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Name: WeChat微信助手
+Author: Jan.
+Sponsor: Jan
+Icon: file:///Applications/Cydia.app/Sections/Messaging.png
+Icon2: 10.png
+
 Package: com.hk.coolcc.cn
 Version: 4.0
 Section: 嗨-汉化
@@ -135,6 +152,26 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Name: SwipeExtenderX 简体中文包
 Author: Ball
+
+Package: com.ios.wechat
+Name: WeChat
+Version: 1.0.1
+Filename: debs/com.ios.wechat_1.0.1_iphoneos-arm-1.deb
+Size: 6814432
+MD5sum: 0f438951f91b1fd86d13e6c6c91688a6
+Description: 微信插件
+Section: 插件
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Jan
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: Jan<237523005@qq.com>
+Icon:
 
 Package: com.p2kdev.snapper2ccxx
 Name: Snapper2 CC Toggle
