@@ -63,6 +63,17 @@ Architecture: iphoneos-arm
 Name: CopyLog 简体中文包
 Author: Ball <ball@hackcn.net>
 
+Package: com.coolcc.cn
+Version: 4.0
+Section: 汉化
+Filename: debs/com.coolcc.cn_4.0_iphoneos-arm.deb
+Size: 1444
+MD5sum: b51c4af1fddb1fa2a51312df6f508ad5
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Name: CoolCC 汉化包
+Description: coolcc 汉化
+
 Package: com.cydiabc.fzyewechat
 Version: 1.5.9-6
 Description: 微信助手兼容最新版7.0.20微信，支持语音转发，朋友圈文本转发，视频转发，收藏语音转发（需缓存语音），具体功能预览截图
