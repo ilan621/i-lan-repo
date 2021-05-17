@@ -1,13 +1,13 @@
-Origin: jackie099的cydia源
-Label: jackie099
+Origin: i lan
+Label: i lan
 Suite: stable
 Version: 1.0
-Codename: jackie099
+Codename: i lan
 Architectures: iphoneos-arm
 Components: main
-Description: 099的常用软件源
+Description: i lan
 MD5Sum:
- b8bed436a3f350ab2ef380fb194e8cf7 725 Packages
- 5fa548c06995db4e8648f80591a45059 424 Packages.bz2
- a502a928213edb88f4bac12a69136011 350 Packages.gz
+ 1e22c95f22ea5bf2170690cd9e7fe842 10334 Packages
+ 6f0fb3d72c04f3d4e54c5e738a42719f 3764 Packages.bz2
+ 060db14b53301587ee85e368619cc2a6 3666 Packages.gz
 

@@ -1,2 +1,2 @@
-# xigua team repo
-Collection of xigua's creations &amp; releases
+# i lan repo
+Collection of i lan's creations &amp; releases

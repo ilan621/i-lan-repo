@@ -44,7 +44,7 @@ if [ -e "$ws/Packages" ]; then
 else
 #
 # other repo should modify this url
-	wget http://35free.net/jackie099
+	wget https://ilan621.github.io/myrepo/
 # end of modify Packages' url
 #
 fi
@@ -160,14 +160,14 @@ fi
 size=$(stat -c %s "$ws/Packages.gz")
 echo " $md5 $size Packages.gz" >> "$ws/.rel"
 echo >> "$ws/.rel"
-echo "Origin: jackie099的cydia源" > "$ws/.rl"
-echo "Label: jackie099" >> "$ws/.rl"
+echo "Origin: i lan" > "$ws/.rl"
+echo "Label: i lan" >> "$ws/.rl"
 echo "Suite: stable" >> "$ws/.rl"
 echo "Version: 1.0" >> "$ws/.rl"
-echo "Codename: jackie099" >> "$ws/.rl"
+echo "Codename: i lan" >> "$ws/.rl"
 echo "Architectures: iphoneos-arm" >> "$ws/.rl"
 echo "Components: main" >> "$ws/.rl"
-echo "Description: 099的常用软件源" >> "$ws/.rl"
+echo "Description: i lan" >> "$ws/.rl"
 echo "MD5Sum:" >> "$ws/.rl"
 cat "$ws/.rl" "$ws/.rel" > "$ws/Release"
 rm -f "$ws/.rel" "$ws/.rl"
