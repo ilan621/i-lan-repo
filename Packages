@@ -1,0 +1,28 @@
+Package: apt1.4
+Priority: standard
+Section: Packaging
+Filename: debs/apt1.4_0_iphoneos-arm.deb
+Size: 772
+MD5sum: 57c714bd1463bf9d7fcd9e4b9cee55db
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1:0
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt
+Description: the advanced packaging tool from Debian
+Name: APT 1.4 Transitional
+
+Package: apt7
+Priority: standard
+Section: Packaging
+Filename: debs/apt7_1_0-2_iphoneos-arm.deb
+Size: 862
+MD5sum: a4a6cd5f40da79835ff2d61acb4bf7ab
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1:0-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt1.4
+Description: the advanced packaging tool from Debian
+Name: APT 0.7 Transitional
+
